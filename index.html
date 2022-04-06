@@ -2,41 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Duplicated Box Model Task:</title>
-     <link rel="stylesheet" href="boxmodel.css">
-     <style class="edit"> 
-     .standard {
-        border: 5px solid teal; background-color: #A5CFE3; padding: 40px; margin: 
-        40px; width: 350px; height: 150px;
-    }
-     .alternate{ box-sizing:  border-box; } 
-     </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Challenge</title>
 </head>
 <body>
-    <h2>Box Model</h2>
-    <p>This is a duplicated version of box model exercise</p>
-    <p></p>
-    <section class="preview">
-        <div class="standard">I am using the standard box model</div>
-        <div class="standard alternate">I am using the alternate box model </div>
-    </section>
+    <h3>I am a header with an unordered list of hyperlinks</h3>
+    <ul>
+       <li>
+     <a href="#about">I am About link and my href value is #about</a>
+       </li>
+       <li>
+     <a href="#education">I am About link and my href value is #education</a>
+       </li>
+       <li>
+     <a href="#skills">I am About link and my href value is #skills</a>
+       </li>
+       <li>
+     <a href="#portfolio">I am About link and my href value is #portfolio</a>
+       </li>
+       <li>
+     <a href="#contact">I am About link and my href value is #contact</a>
+      </li>
+    </ul>
 
-    <textarea class="playable css" style="height: 280px;">
-        .standard {
-            border: 5px solid teal; background-color: #A5CFE3; padding: 40px; margin: 
-            40px; width: 350px; height: 150px;
-        }
-        .alternate{ box-sizing: ; border: ;
-        } 
-    </textarea>
-    <textarea class="playable html" style="height: 80px;">
-        <div class="standard">I am using the standard box model</div>
-        <div class="alternate">I am using the alternate box model </div>
-    </textarea>
-    <script src="playable.js"></script>
-    
-    <div class="button"><input id="reset" type="button" value="Reset"></div>
-    <a href="index.html">Back to main</a>
-    
+    <div class="luffy">
+        <img src="luffy.jpg">
+        <p>I am an image and I'm all by myself</p>
+    </div>
+
+     <div class="page-content">
+        <p> I am a division with the class eqaul to page-content that enclose all the division element below</p>
+        <h1>Hello! I am a text with the largest heading</h1>
+         
+        <div id="about">I am a division with id equal to about</div>
+        <div id="education">I am a division with id equal to education</div>
+        <div id="skills">I am a division with id equal to skills</div>
+        <div id="portfolio">I am a division with id equal to portfolio</div>
+        <div id="contact">I am a division with id equal to contact</div>
+        <footer>
+            <p>I am the footer the last section of this page</p>
+        </footer>
+    </div>
+     
+     <a href="index.html">Back to main page</a>
+
 </body>
 </html>
